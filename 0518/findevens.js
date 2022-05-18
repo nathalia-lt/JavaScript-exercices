@@ -9,13 +9,12 @@
 // INPUT: [2,4,6,8,10]
 // OUTPUT: [2,4,6,8,10]
 function findEvens(nums) {
-    const even = []
-    nums.map(n=>{
-        if (n % 2 == 0){even.push(n)}  //if the remaider is equals to 0 it means that it is even, ai eu tenho que fazer um looping para verificar 
+    const evens = []
+    nums.map(num=>{
+        if (num % 2 == 0){evens.push(num)}  //if the remaider is equals to 0 it means that it is even, ai eu tenho que fazer um looping para verificar 
         //numero por numero
-        console.log(n)
     })
-    return even
+    return evens
 
 
 }
