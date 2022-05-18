@@ -19,7 +19,7 @@ baseArray.forEach(num=>count+=num)
 console.log('COUNT: ', count)
 
 
-let evens: number[] = []
+let evens= []
 baseArray.forEach(num=> {
     if(num % 2 === 0) evens.push(num)
 })
