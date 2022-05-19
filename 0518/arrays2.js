@@ -47,7 +47,7 @@ let reverseArray = NYarray.reverse()
 
 console.log("REVERSE: ", reverseArray, NYarray)
 
-// .reverse() -> reverses the order of the elements in an array
+// .reverse() -> reverses the order of an array
 // changes the original array
 //por isso temos que criar uma nova array para colocar esses changes, dessa maneira nao afeta outras
 //funcoes que essa array possa estar envolvida
@@ -58,7 +58,7 @@ let reverseArray2 = [...NYarray].reverse()
 
 console.log("REVERSE 2: ", reverseArray2, NYarray)
 
-// Can reverse strings as well:
+// Can NOT reverse strings, only arrays:
 console.log('REVERSE 3:', 'NEWYORKCITY'.reverse())
 
 //CONCAT 
