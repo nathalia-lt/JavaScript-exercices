@@ -16,6 +16,7 @@ let splitStr = str.split('')
 
 console.log('SPLIT: ', splitStr)
 
+// slit turns strings into an array
 // .split -> creates an array with the elements the targeted string
 // seperates on the specified char without including that element
 
