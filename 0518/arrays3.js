@@ -71,17 +71,30 @@ console.log('SPLICE: ', numArray, spliceArray3)
 // .slice(start,end) -> returns the selected elements in an array as a new array
 // does not change the original array (Non destructive)
 
- numArray = [1,2,3,4,5]
+numArray = [1,2,3,4,5]
 let sliceArray = numArray.slice(1,3)
 
 console.log('SLICE :', numArray, sliceArray)
 
 
+//GETTING THE END OF AN ARRAY
+// if you want to leave out part of the beginning of an array
+
+// Option 1:
+// if we don't put anything in the second parameter, you will return everything from the start index to the end of the array
+let sliceArray2 = numArrayslice(2,)
+console.log('SLICE 2: ', sliceArray2)
+
+// Option2:
+// you find the length of the array and subtract 1 to account for indices starting at 0
+let lenOfArray = numArray.length()
+let sliceArray3 = numArrayslice(2,lenOfArray)
+console.log('SLICE 3: ', sliceArray3)
 
 // NEGATIVE INDICES:
 // arrays have negative indices that allow you to iterate from the last element in the array
 // starting with -1 
 
-let sliceArray2 = numArray.slice(-3,-2)
+let sliceArray4 = numArray.slice(-3,-2)
 
-console.log('SLICE 2:', numArray,sliceArray2)
+console.log('SLICE 4:', numArray,sliceArray4)
