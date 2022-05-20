@@ -5,6 +5,7 @@
 
 
 let maxNum = Math.max(0,100)
+//dentro do parenteses eu sempre tenho que colocar dois 'valores', asssim math.max vai ter com o que comparar
 console.log('Max: ', maxNum)
 
 let currentMax = 0
