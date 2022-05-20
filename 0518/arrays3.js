@@ -77,7 +77,7 @@ let sliceArray = numArray.slice(1,3)
 console.log('SLICE :', numArray, sliceArray)
 
 
-//GETTING THE END OF AN ARRAY
+//GETTING THE END OF AN ARRAY/string WITHOUT KNOWING WHAT THE INDEX OF THE END IS 
 // if you want to leave out part of the beginning of an array
 
 // Option 1:

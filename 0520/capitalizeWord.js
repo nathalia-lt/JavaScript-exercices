@@ -17,7 +17,7 @@ function capitalizeWord(word){
 // 'h' '1' '/' '!' ','
 
 
-// Run 'node 0520/capitalize.js' to test!
+// Run 'node 0520/capitalizeWord.js' to test!
 console.log('capitalize(dog)')
 console.log('EXPECTED: ', 'Dog')
 console.log('ACTUAL: ', capitalizeWord('dog'))
