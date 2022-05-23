@@ -19,15 +19,12 @@ function capitalizeWord(word){
 
 // Run 'node 0520/capitalizeSentence.js' to test!
 console.log('capitalizeSentence(Youd think being abducted by aliens would be the worst thing that could happen to me.)')
-// console.log('EXPECTED: ', 'Youd think being abducted by aliens would be the worst thing that could happen to me. ')
 console.log('ACTUAL: ', capitalizeSentence('Youd think being abducted by aliens would be the worst thing that could happen to me.'))
 
 console.log(' ')
 console.log('capitalizeSentence(And youd be wrong.)')
-// console.log('EXPECTED: ', 'And youd be wrong.')
 console.log('ACTUAL: ', capitalizeSentence('And youd be wrong.'))
 
 console.log(' ')
 console.log('capitalizeSentence(Because now, the aliens are having ship trouble, and theyve left their cargo of human women including me on an ice planet.)', 'Because now, the aliens are having ship trouble, and theyve left their cargo of human women including me on an ice planet.')
-// console.log('EXPECTED: ', 'Because now, the aliens are having ship trouble, and theyve left their cargo of human women including me on an ice planet.')
 console.log('ACTUAL: ', capitalizeSentence('Because now, the aliens are having ship trouble, and theyve left their cargo of human women including me on an ice planet.'))
