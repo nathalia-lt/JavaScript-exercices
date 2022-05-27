@@ -11,10 +11,10 @@ console.log('FOREACH: ',forEachArray)
 
 
 // .map() -> creates a new array containing the results of the mapping
-// .forEach() -> returns nothing, 
+// .forEach() -> does not return anything but allows you to apply some logic with each element in the array, 
 // allows you to mutate the base array [is destructive]
 
-let count = 0 
+let count = 0 //its not gonna return a new array but will update our specifid value. dont take space.
 baseArray.forEach(num=>count+=num)
 console.log('COUNT: ', count)
 
@@ -62,17 +62,3 @@ let sortedWords = [...wordArray].sort((word1,word2)=>word1.localeCompare(word2))
 console.log('CHAR SORTING: ',wordArray,sortedWords)
 
 
-// FIND
-// .find() -> finds the first element of an array that completes a test 
-
-let findArray = wordArray.find(word=>word.length>5)
-
-console.log('FIND:',findArray)
-
-
-
-// FIND INDEX
-// .findIndex -> finds the index of the first element of an array that completes a test 
-
-let findIndexArray = wordArray.findIndex(word=>word.length>5)
-console.log('FIND INDEX: ', findIndexArray)

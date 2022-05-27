@@ -7,8 +7,8 @@ console.log('THE SECOND MOVIE: ',movies[0])
 
 // option 1: 
 console.log('MOVIES 1 : ')
-//  for (start, stop, (what we do after all of the logic inside the loop executes)  )
-for (let i=0; i < movies.length; i++){ //os ii e para percorrer por toda array
+//  for (start, stop,) what we do after all of the logic inside the loop executes )
+for (let i=0; i < movies.length; i++){ //os ii e para percorrer por toda array || > means: the last value can be the last value on movies
     console.log(movies[i])
     if (movies[i]==='Casablanca') console.log(i)
 }
@@ -57,6 +57,28 @@ console.log('INDEX OF 1: ', indexOf1)
 let indexOf2 = movies.indexOf('The Godfather')
 
 console.log('INDEX OF 2: ', indexOf2)
+
+
+
+// FIND
+// .find() -> finds the first element of an array that completes a test 
+
+let findArray = wordArray.find(word=>word.length>5)
+
+console.log('FIND:',findArray)
+
+
+
+// FIND INDEX
+// .findIndex -> finds the index of the first element of an array that completes a test 
+
+let findIndexArray = wordArray.findIndex(word=>word.length>5)
+console.log('FIND INDEX: ', findIndexArray)
+
+
+// INDEX OF vs FIND INDEX
+// arr.indexOf(element) -> when you know the specific element you are looking for
+// arr.findIndex(fn(testcase)) -> when you dont know the specific element but want to find the first element that satisfies a condition
 
 
 //CREATING A RANGE OF NUMBERS 
