@@ -12,15 +12,15 @@ console.log('STRING: ', letter)
 
 let str = '12345'
 
-let splitStr = str.split('')
+let splitStr = str.split('') // -> ['1','2','3','4','5']
 
 console.log('SPLIT: ', splitStr)
 
-// slit turns strings into an array
-// .split -> creates an array with the elements the targeted string
+// split turns strings into an array
+// .split(item) -> creates an array with the elements the targeted string
 // seperates on the specified char without including that element
 
-let splitStr2 = str.split('3')
+let splitStr2 = str.split('3') // -> ['12','45] //goes into the specifed varible and then cuts on there
 
 console.log('SPLIT 2: ', splitStr2)
 

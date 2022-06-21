@@ -33,7 +33,7 @@ console.log('EVENS MAP: ', evens2)
 
 // Reduce 
 // .reduce() -> executes an operation on each array element and then returns a single value: the accumulation 
-
+// you can use not just numbers
 let reduceArray = baseArray.reduce((tot,val)=>tot+val,0)
 console.log('REDUCE: ',reduceArray)
 
@@ -46,7 +46,8 @@ console.log('FILTER: ', filterArray, baseArray)
 
 
 // Sort 
-// .sort(val1,val2) -> changes the locations of all of the elements in the array IN PLACE, meaning that the original array is updated instead of creating a new one  - is destructive
+// .sort(val1,val2) -> changes the locations of all of the elements in the array IN PLACE,
+// meaning that the original array is updated instead of creating a new one  - is destructive
 // based on a certain condition
 // if you want to keep the original array the same, create a copy 
 // use the spread operator! -> ...

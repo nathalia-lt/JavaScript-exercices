@@ -445,9 +445,9 @@ function mostReadGenre(name) {
         //console.log(objShelves)
             let read = objShelves.finished
             //console.log(read)
-            for (let titles in read){
-                //console.log(titles)
-                let objTitles = read[titles]
+            for (let title in read){
+                //console.log(title)
+                let objTitles = read[title]
                 //console.log(objTitles)
                 let bookGenre = objTitles.genre
                 //console.log(bookGenre)
@@ -472,7 +472,7 @@ function mostReadGenre(name) {
                     maxGenre = genre
                 }
             }
-            console.log(maxGenre)
+            // console.log(maxGenre)
         }
 
 mostReadGenre('michelle')

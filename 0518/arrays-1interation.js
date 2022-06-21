@@ -33,8 +33,10 @@ for (let movie of movies){ //o jeito mais facil de ir em um por um na array
 
 
 // INCLUDES
+
+//Includes means to check if it is included in the array AND NOT to includes it in the array.
 // .includes(element) -> returns true or false if the specified element is in the array
- let title = 'The Godfather'
+let title = 'The Godfather'
 let includes1 = movies.includes(title)
 
 console.log('INCLUDES 1: ', includes1)

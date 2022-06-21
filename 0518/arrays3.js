@@ -40,6 +40,14 @@ let shiftArray = colorArray.shift()
 
 console.log('SHIFT: ', colorArray, shiftArray)
 
+///SPREAD OPERATOR
+/// Adding items to an array without affecting the original array
+
+let countries = ["Germany","France","Belgium"]
+
+let newCountries = [...countries,"Denmark"]
+let newCountries2 = ["Denmark",...countries]
+
 
 // SPLICE
 // .splice(index,length) -> removes length of elements in the array starting at the specified index
