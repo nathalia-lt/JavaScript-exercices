@@ -1,0 +1,78 @@
+
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "The Lighthouse",
+            "director": "Robert Egger",
+            "actors": ["Robert Pattinson","Willem Dafoe"],
+            "year": 2019,
+            "genre": "horror",
+            "budget": 45000000
+        },
+        {
+            "id": 2,
+            "title": "Good Time",
+            "director": "The Safdie Brothers",
+            "actors": ["Robert Pattinson","Jennifer Jason Leigh", "Benny Safdie"],
+            "year": 2017,
+            "genre":"thriller",
+            "budget": 55000000
+        },
+        {
+            "id": 3,
+            "title": "Twilight",
+            "director": "Catherine Hardwicke",
+            "actors": ["Robert Pattinson","Kristen Stewart","Taylor Lautner"],
+            "year": 2008,
+            "genre": "romance",
+            "budget": 75000000
+        },
+        {
+            "id": 4,
+            "title": "The King",
+            "director": "David Michod",
+            "actors": ["Robert Pattinson","Timothee Chalamet","Joel Edgerton"],
+            "year": 2019,
+            "genre": "drama",
+            "budget": 130000000
+        },
+        {
+            "id": 5,
+            "title": "High Life",
+            "director": "Claire Denis",
+            "actors": ["Robert Pattinson","Juliette Binoche","Andre 3000"],
+            "year": 2018,
+            "genre": "sci-fi",
+            "budget": 200000000
+        },
+        {
+            "id": 6,
+            "title": "The Lost City of Z",
+            "director": "James Gray",
+            "actors": ["Robert Pattinson","Charlie Hunnam","Sienna Miller"],
+            "year": 2016,
+            "genre": "drama",
+            "budget": 23000000
+        },
+        {
+            "id": 7,
+            "title": "Tenet",
+            "director": "Christopher Nolan",
+            "actors": ["Robert Pattinson","John David Washington","Elizabeth Debicki"],
+            "year": 2020,
+            "genre": "sci-fi",
+            "budget": 245000000
+        },
+        {
+            "id": 8,
+            "title": "Cosmopolis",
+            "director": "David Cronenberg",
+            "actors": ["Robert Pattinson","Juliette Binoche","Paul Giamatti"],
+            "year": 2012,
+            "genre": "sci-fi",
+            "budget": 25000000
+        }
+    
+    ]
+}
