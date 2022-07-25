@@ -1,0 +1,144 @@
+{
+    "halloween": [
+        {
+            "id": 1,
+            "name": "amelia",
+            "candy": {
+                "kinder-bueno": {
+                    "type": "chocolate",
+                    "amount": 4,
+                    "allergen": "none"
+                },
+                "skittles": {
+                    "type": "sugar",
+                    "amount": 8,
+                    "allergen": "none"
+                },
+                "hersheys-bar": {
+                    "type": "chocolate",
+                    "amount": 2,
+                    "allergen": "none"
+                },
+                "kit-kats": {
+                    "type": "chocolate",
+                    "amount": 3,
+                    "allergen": "wheat"
+                },
+                "snickers": {
+                    "type": "chocolate",
+                    "amount": 1,
+                    "allergen": "nuts"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": "samantha",
+            "candy": {
+                "milka-bar": {
+                    "type": "chocolate",
+                    "amount": 5,
+                    "allergen": "none"
+                },
+                "sour-patch-kids": {
+                    "type": "sugar",
+                    "amount": 3,
+                    "allergen": "none"
+                },
+                "warheads": {
+                    "type": "sour",
+                    "amount": 3,
+                    "allergen": "none"
+                },
+                "peanut-butter-cups": {
+                    "type": "chocolate",
+                    "amount": 3,
+                    "allergen": "nuts"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "name": "tony",
+            "candy": {
+                "swedish-fish": {
+                    "type": "chewy",
+                    "amount": 8,
+                    "allergen": "none"
+                },
+                "twizzlers": {
+                    "type": "chewy",
+                    "amount": 3,
+                    "allergen": "wheat"
+                },
+                "sweet-stripes": {
+                    "type": "mint",
+                    "amount":2,
+                    "allergen": "none"
+                },
+                "snickers": {
+                    "type": "chocolate",
+                    "amount": 4,
+                    "allergen": "nuts"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "name": "philip",
+            "candy": {
+                "whoppers": {
+                    "type": "chocolate",
+                    "amount": 2,
+                    "allergen": "none"
+                },
+                "peanut-butter-cups": {
+                    "type": "chocolate",
+                    "amount": 4,
+                    "allergen": "nuts"
+                },
+                "sour-patch-kids": {
+                    "type": "sour",
+                    "amount":2,
+                    "allergen": "none"
+                },
+                "skittles": {
+                    "type": "sugar",
+                    "amount": 1,
+                    "allergen": "nuts"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "name": "kelsey",
+            "candy": {
+                "milka-bar": {
+                    "type": "chocolate",
+                    "amount": 5,
+                    "allergen": "none"
+                },
+                "kinder-bueno": {
+                    "type": "chocolate",
+                    "amount": 3,
+                    "allergen": "none"
+                },
+                "herseys-bar": {
+                    "type": "chocolate",
+                    "amount":2,
+                    "allergen": "none"
+                },
+                "peanut-butter-cups": {
+                    "type": "chocolate",
+                    "amount": 1,
+                    "allergen": "nuts"
+                },
+                "snickers": {
+                    "type": "chocolate",
+                    "amount": 3,
+                    "allergen": "nuts"
+                }
+            }
+        }
+    ]
+}
